@@ -1,2 +1,2 @@
 # sinyoro-portifolio
-Daniel Mafukidze's Portfoloi
+Daniel Mafukidze's Portfolio
