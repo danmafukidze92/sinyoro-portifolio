@@ -1,0 +1,29 @@
+# Lives in ~/www on the Contabo VPS (Jenkins copies it there on every deploy).
+# The app listens on port 80 inside the container; Nginx Proxy Manager, which owns
+# host ports 80/443, forwards https://www.nexigent-labs.co.zw → http://www:80.
+#
+# Manual use on the VPS:
+#   cd ~/www && docker compose up -d        # start / update
+#   docker compose logs -f                   # logs
+#   cat ~/www/data/messages.log              # contact-form messages
+services:
+  www:
+    image: sinyoro-portfolio:latest
+    container_name: www
+    restart: unless-stopped
+    environment:
+      PORT: "80"
+      TZ: Africa/Harare
+      CONTACT_STORE_DIR: /app/data
+    sysctls:
+      net.ipv4.ip_unprivileged_port_start: "0"   # lets the non-root app user bind port 80
+    volumes:
+      - ./data:/app/data
+    networks:
+      proxy:
+        aliases: [www]
+
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NET:-npm_default}   # Nginx Proxy Manager's docker network (Jenkins fills this in)

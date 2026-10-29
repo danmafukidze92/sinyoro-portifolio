@@ -1,0 +1,515 @@
+{
+  "profile": {
+    "name": "Daniel Mafukidze",
+    "fullName": "Daniel Rufaro Mafukidze",
+    "title": "Business Process Automation Specialist · Data Analyst · Cyber Security Enthusiast · System Administrator · Solution Builder · Product Developer · System Analyst",
+    "location": "Harare & Gweru, Zimbabwe",
+    "email": "danmafukidze92@gmail.com",
+    "phone": "+263 775 924 874",
+    "linkedin": "https://www.linkedin.com/in/daniel-mafukidze-1a37b1a6",
+    "summary": "I work where the technical side and the commercial side of a deal need to line up. Since 2018 I have implemented and supported ERP, CRM and SaaS platforms (Zoho, Odoo, Palladium, Pastel, CaseWare, Kofax, WAERlinx) across AWS and Google Cloud, and trained the people who use them. Today I help Zimbabwean businesses choose the right technology as an Account Manager at Frolgate Technology Group. After hours I build and ship my own products, including a freight marketplace, an AI safety-vision system and an omnichannel contact centre, all deployed through my own CI/CD pipeline.",
+    "languages": [
+      "English",
+      "Shona"
+    ]
+  },
+  "stats": [
+    {
+      "value": "8",
+      "unit": "yrs",
+      "label": "in ICT, since 2018"
+    },
+    {
+      "value": "30",
+      "unit": "%",
+      "label": "productivity lift from a Pastel ERP + Microsoft 365 rollout"
+    },
+    {
+      "value": "15",
+      "unit": "%",
+      "label": "better on-time project delivery through client training"
+    },
+    {
+      "value": "99",
+      "unit": "%+",
+      "label": "uptime on hosted client environments"
+    },
+    {
+      "value": "30",
+      "unit": "%",
+      "label": "IT cost savings identified across departments"
+    }
+  ],
+  "education": {
+    "degree": "BSc (Hons) Information Systems",
+    "school": "Midlands State University",
+    "year": "2017"
+  },
+  "experience": [
+    {
+      "year": "2025",
+      "period": "Dec 2025 – Present",
+      "role": "Account Manager, Business Systems",
+      "company": "Frolgate Technology Group",
+      "place": "Harare",
+      "points": [
+        "Own a portfolio of B2B technology accounts end to end, from lead generation and needs analysis to close and renewal.",
+        "Prescribe best-fit solutions across ERP, cloud, unified communications, contact centre, AV and cybersecurity, and build proposals and quotations with the technical team.",
+        "Respond to public tenders and RFPs on the PRAZ eGP system, and built my own tender-intelligence tooling to find them first.",
+        "Act as the customer’s voice inside the business, turning client feedback into solutions with engineering."
+      ]
+    },
+    {
+      "year": "2024",
+      "period": "Jun 2024 – Dec 2025",
+      "role": "Customer Success Consultant",
+      "company": "July 28 Group",
+      "place": "Harare",
+      "points": [
+        "Configured and deployed CaseWare, Kofax (Tungsten) and Zoho for client environments.",
+        "Designed training programmes, manuals and live sessions that lifted on-time project delivery by 15%.",
+        "Ran onboarding from data migration and Google Cloud sandbox/production setup through UAT to go-live, with 99%+ uptime.",
+        "Found upsell opportunities in Zoho CRM data, adding 5% to lead generation and the proposal pipeline."
+      ]
+    },
+    {
+      "year": "2023",
+      "period": "Dec 2023 – Jun 2024",
+      "role": "IT Internal Consultant",
+      "company": "July 28 Group",
+      "place": "Harare",
+      "points": [
+        "Administered Zoho ERP and CaseWare cloud infrastructure, targeting 99% availability.",
+        "Managed Google Cloud environments and provided Tier-2 support for Kofax intelligent automation.",
+        "Put backup and disaster-recovery protocols in place across servers, network and security systems.",
+        "Identified IT cost savings of up to 30% through financial analysis across departments."
+      ]
+    },
+    {
+      "year": "2023",
+      "period": "May 2023 – Nov 2023",
+      "role": "ICT Officer",
+      "company": "Deicov Holdings",
+      "place": "Harare",
+      "points": [
+        "Led the Pastel ERP and Microsoft 365 rollout, raising productivity by 30% through change management and training.",
+        "Ran on-premise servers, VPNs and network security, and supported staff on-site and remotely.",
+        "Deployed anti-phishing and ransomware defences and achieved a 100% backup-recovery success rate.",
+        "Introduced IT asset inventory control that ended duplicated purchases."
+      ]
+    },
+    {
+      "year": "2021",
+      "period": "Jun 2021 – Feb 2023",
+      "role": "System Support & Implementation Analyst",
+      "company": "WaerSystems (UK)",
+      "place": "Remote",
+      "points": [
+        "Implemented and supported WAERlinx, a B2B SaaS supply-chain and warehouse platform: customisation, API configuration and client-specific features.",
+        "Troubleshot client Linux VMs on AWS and Google Cloud, reading the Java codebase to trace root causes.",
+        "Ran UAT and QA before every release, tracked work in JIRA and followed SOC 1 requirements."
+      ]
+    },
+    {
+      "year": "2019",
+      "period": "Jul 2019 – Jun 2021",
+      "role": "System Technical Support Analyst",
+      "company": "Willdale Ltd",
+      "place": "Harare",
+      "points": [
+        "Led the migration from Sage to Palladium ERP with a zero-disruption go-live.",
+        "Moved mailboxes to Exchange Online, rolled out Microsoft 365 and Azure AD, and migrated MSSQL to the cloud.",
+        "Implemented VoIP call tracking and recording, a VPN with failover, and a staffed IT helpdesk.",
+        "Built a custom internet user-management tool, ran cyber-awareness training and produced Tableau reports for sales and finance."
+      ]
+    },
+    {
+      "year": "2018",
+      "period": "Feb 2018 – Sep 2018",
+      "role": "Call Centre Agent & API Tester",
+      "company": "Webdev Zimbabwe (Paynow)",
+      "place": "Harare",
+      "points": [
+        "Tested Paynow payment-gateway integrations in PHP, C# and Java, validating HTTP request and response flows.",
+        "Handled high-volume customer queries through ticketing systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "haulmate",
+      "name": "HaulMate",
+      "tagline": "Freight marketplace for Zimbabwe",
+      "color": "#f2a03d",
+      "status": "In development",
+      "description": "An inDrive-style marketplace that connects shippers with truck owners for loads from a pickup up to 30 tonnes. Shippers set a price (with a recommended fare), drivers accept loads, and both sides track the trip live.",
+      "features": [
+        "Live GPS tracking, in-app chat and voice calls",
+        "Driver KYC with ID OCR and liveness checks",
+        "Paynow payments managed from the admin console",
+        "Android and iOS apps for shippers and drivers; admin on web and mobile"
+      ],
+      "stack": [
+        "Java",
+        "Maven",
+        "PostgreSQL",
+        "Redis",
+        "Firebase",
+        "Paynow",
+        "Docker"
+      ],
+      "links": []
+    },
+    {
+      "id": "frolpulse",
+      "name": "Frol-Pulse",
+      "tagline": "Every Conversation. One Pulse.",
+      "color": "#ff5d73",
+      "status": "In development",
+      "description": "An omnichannel contact-centre platform. It began as real-time wallboards and reporting for IP telephony and contact-centre systems and is growing into a full contact centre of its own.",
+      "features": [
+        "Real-time wallboards and detailed historical reporting",
+        "Own voice engine (Kamailio + Asterisk): any SIP trunk, agent extensions, prebuilt PBX connectors",
+        "AI IVR, AI virtual assistant and agent gamification on the roadmap",
+        "Primary server with automatic disaster-recovery failover"
+      ],
+      "stack": [
+        "Spring Boot",
+        "PostgreSQL",
+        "Kamailio",
+        "Asterisk",
+        "WebSockets",
+        "Docker"
+      ],
+      "links": []
+    },
+    {
+      "id": "ppeguard",
+      "name": "PPE Guard",
+      "tagline": "AI safety-compliance vision",
+      "color": "#5ad17a",
+      "status": "Live prototype",
+      "description": "Computer vision that checks every person on site for a helmet, vest, gloves, boots and goggles. Compliant workers get a green box, missing items are highlighted in red, and supervisors are alerted immediately.",
+      "features": [
+        "Works with webcams, video files and CCTV/RTSP streams",
+        "Browser, email and WhatsApp alerts with evidence snapshots",
+        "Own detection model with active learning: uncertain frames are reviewed, retrained on Kaggle GPUs and hot-swapped with zero downtime",
+        "Built for construction sites, factories and mines"
+      ],
+      "stack": [
+        "Spring Boot",
+        "Python",
+        "YOLO",
+        "JavaCV",
+        "PostgreSQL",
+        "Jenkins",
+        "Docker"
+      ],
+      "links": []
+    },
+    {
+      "id": "cti",
+      "name": "PBX ↔ CRM Connector",
+      "tagline": "Computer telephony integration",
+      "color": "#b18cff",
+      "status": "Built",
+      "description": "A custom CTI connector between Avaya IP Office and Bitrix24 CRM. A Node.js service listens to the phone system’s DevLink3 event stream and turns calls into CRM activity in real time.",
+      "features": [
+        "Caller screen-pops and automatic call logging in the CRM",
+        "OAuth handler on the VPS, with middleware on the LAN next to the PBX",
+        "Groundwork for an omnichannel contact centre inside the CRM"
+      ],
+      "stack": [
+        "Node.js",
+        "DevLink3",
+        "Bitrix24 REST",
+        "OAuth 2.0"
+      ],
+      "links": []
+    },
+    {
+      "id": "tenders",
+      "name": "OptiPlan",
+      "tagline": "Public-tender intelligence",
+      "color": "#ffd166",
+      "status": "In use",
+      "description": "Finds sales opportunities before competitors do. It pulls live tenders, annual procurement plans and award notices from Zimbabwe’s PRAZ eGP system and sorts them by product portfolio.",
+      "features": [
+        "Spring Boot web app with a portfolio-sorted opportunity board",
+        "Companion Odoo 18 modules: a tender scraper that pushes to the CRM with email alerts, plus a weekly pipeline sync",
+        "Category codes managed from the UI"
+      ],
+      "stack": [
+        "Spring Boot",
+        "Odoo 18",
+        "Python",
+        "Web scraping",
+        "Jenkins"
+      ],
+      "links": []
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp → CRM Bridge",
+      "tagline": "Omnichannel case routing",
+      "color": "#2ec4b6",
+      "status": "Built",
+      "description": "Node.js middleware that turns WhatsApp conversations into structured CRM case records, with automated triage, routing and SLA escalation on Bitrix24 Smart Process Automation.",
+      "features": [
+        "Maps WhatsApp Open Channel conversations to case records",
+        "Automation robots for triage, routing and SLA escalation",
+        "Hosted on the VPS behind a reverse proxy"
+      ],
+      "stack": [
+        "Node.js",
+        "Express",
+        "Bitrix24 SPA",
+        "WhatsApp"
+      ],
+      "links": []
+    },
+    {
+      "id": "agents",
+      "name": "Content Automation",
+      "tagline": "AI agents & n8n pipelines",
+      "color": "#f78c6b",
+      "status": "Built",
+      "description": "Blog Agent is a Django app that suggests topics, drafts posts with Google Gemini, generates images and runs a review-and-schedule workflow. It works alongside n8n pipelines for blog and LinkedIn content.",
+      "features": [
+        "Topic suggestions, AI drafting and image generation",
+        "Human review and scheduling before anything is published",
+        "n8n workflows chaining Apify, Gemini, Google Docs and Slack"
+      ],
+      "stack": [
+        "Django",
+        "Gemini",
+        "n8n",
+        "Apify",
+        "PostgreSQL"
+      ],
+      "links": []
+    },
+    {
+      "id": "lab",
+      "name": "Nexigent Labs",
+      "tagline": "Self-hosted platform & CI/CD",
+      "color": "#8ecae6",
+      "status": "Running",
+      "description": "My own cloud lab on a Contabo VPS, which also hosts this portfolio. Every project is pushed to Git, built by Jenkins into a Docker image and served behind Nginx Proxy Manager over HTTPS.",
+      "features": [
+        "Jenkins pipelines that build and deploy Docker containers",
+        "Nginx Proxy Manager, PostgreSQL, a mailcow mail server, n8n, Odoo, Metabase and Plane",
+        "3CX PBX in Docker for telephony labs"
+      ],
+      "stack": [
+        "Linux",
+        "Docker",
+        "Jenkins",
+        "Nginx",
+        "PostgreSQL",
+        "Spring Boot"
+      ],
+      "links": []
+    },
+    {
+      "id": "dataviz",
+      "name": "Data Dashboards",
+      "tagline": "Analytics with Python & Tableau",
+      "color": "#e9c46a",
+      "status": "Public",
+      "description": "Data analysis and visualisation work in Python and Tableau, published on Tableau Public.",
+      "features": [
+        "Value Inc sales dashboard",
+        "BlogMe news engagement dashboard",
+        "Blue Bank loan-portfolio dashboard"
+      ],
+      "stack": [
+        "Tableau",
+        "Python",
+        "Excel",
+        "CaseWare IDEA"
+      ],
+      "links": [
+        {
+          "label": "Value Inc",
+          "url": "https://public.tableau.com/app/profile/daniel.mafukidze/viz/ValueInc_16644072453600/Home"
+        },
+        {
+          "label": "BlogMe News",
+          "url": "https://public.tableau.com/app/profile/daniel.mafukidze/viz/BlogMeNewsDashboard_16654297764570/BlognewsDashboard"
+        },
+        {
+          "label": "Blue Bank",
+          "url": "https://public.tableau.com/app/profile/daniel.mafukidze/viz/BlueBank_16651108484450/Dashboard1"
+        }
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "group": "ERP / CRM / SaaS",
+      "items": [
+        "Zoho ERP & CRM",
+        "Odoo",
+        "Bitrix24",
+        "Palladium",
+        "Pastel",
+        "Sage 200/300",
+        "CaseWare",
+        "WAERlinx"
+      ]
+    },
+    {
+      "group": "Code & APIs",
+      "items": [
+        "Java / Spring Boot",
+        "Python",
+        "Node.js",
+        "PHP / Laravel",
+        "SQL",
+        "REST & JSON",
+        "Three.js"
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "items": [
+        "AWS",
+        "Google Cloud",
+        "Azure / M365",
+        "Docker",
+        "Jenkins",
+        "Linux",
+        "Hyper-V",
+        "VMware"
+      ]
+    },
+    {
+      "group": "Unified Communications",
+      "items": [
+        "Avaya IP Office",
+        "3CX",
+        "Yeastar",
+        "Grandstream",
+        "Asterisk",
+        "Kamailio",
+        "Yealink AV"
+      ]
+    },
+    {
+      "group": "Automation & QA",
+      "items": [
+        "Kofax RPA",
+        "Kofax TotalAgility",
+        "n8n",
+        "Selenium",
+        "Cucumber BDD",
+        "UAT",
+        "JIRA"
+      ]
+    },
+    {
+      "group": "Security & Data",
+      "items": [
+        "IBM QRadar XDR",
+        "Sophos",
+        "Tableau",
+        "IBM Cognos",
+        "CaseWare IDEA",
+        "Excel"
+      ]
+    }
+  ],
+  "crateSkills": [
+    "JAVA",
+    "SPRING",
+    "PYTHON",
+    "NODE",
+    "PHP",
+    "SQL",
+    "DOCKER",
+    "JENKINS",
+    "LINUX",
+    "AWS",
+    "GCP",
+    "AZURE",
+    "ZOHO",
+    "ODOO",
+    "BITRIX24",
+    "AVAYA",
+    "3CX",
+    "KOFAX",
+    "N8N",
+    "SELENIUM",
+    "TABLEAU",
+    "QRADAR",
+    "SOPHOS",
+    "REST"
+  ],
+  "certifications": [
+    {
+      "name": "QRadar XDR — Sales & Technical Sales",
+      "issuer": "IBM"
+    },
+    {
+      "name": "AP Essentials 10.4 Explorer",
+      "issuer": "Tungsten Automation (Kofax)"
+    },
+    {
+      "name": "VMware Cloud Foundation Sales — Certified Expert",
+      "issuer": "Broadcom"
+    },
+    {
+      "name": "HCIA-Datacom · HCSA Sales & Pre-Sales IP Network",
+      "issuer": "Huawei"
+    },
+    {
+      "name": "Black Belt SMB & Mid-Market, Stages 1–3",
+      "issuer": "Cisco"
+    },
+    {
+      "name": "AI Technical & Business Practitioner",
+      "issuer": "Cisco"
+    },
+    {
+      "name": "Sales Consultant track SC00–SC04",
+      "issuer": "Sophos"
+    },
+    {
+      "name": "Ansible Basics (DO007)",
+      "issuer": "Red Hat"
+    },
+    {
+      "name": "Grandstream Certified Specialist",
+      "issuer": "Grandstream"
+    },
+    {
+      "name": "Yeastar Certified Technician",
+      "issuer": "Yeastar"
+    },
+    {
+      "name": "WXP & Amplify Elevate 2026",
+      "issuer": "HP"
+    },
+    {
+      "name": "Bitrix24 Partner Certification",
+      "issuer": "Bitrix24"
+    },
+    {
+      "name": "Machine Learning & Data Visualization",
+      "issuer": "365 Data Science"
+    },
+    {
+      "name": "Elements of AI for Business",
+      "issuer": "Elements of AI"
+    }
+  ],
+  "nowLearning": [
+    "AZ-104",
+    "PCEP",
+    "AZ-400",
+    "Terraform Associate",
+    "KCNA",
+    "AWS SA Associate"
+  ]
+}

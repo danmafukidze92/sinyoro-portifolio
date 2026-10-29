@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Daniel Mafukidze — Portfolio</title>
+  <meta name="description" content="Daniel Mafukidze — business process automation specialist, data analyst, system administrator and product developer in Zimbabwe. Drive through an interactive 3D portfolio of career, projects, skills and certifications." />
+  <meta name="theme-color" content="#1b1411" />
+  <meta property="og:title" content="Daniel Mafukidze — Interactive Portfolio" />
+  <meta property="og:description" content="Drive a V8 saloon through my career, projects and skills." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.nexigent-labs.co.zw/" />
+  <link rel="canonical" href="https://www.nexigent-labs.co.zw/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Daniel Rufaro Mafukidze",
+    "jobTitle": "Account Manager, Business Systems",
+    "worksFor": { "@type": "Organization", "name": "Frolgate Technology Group" },
+    "alumniOf": "Midlands State University",
+    "address": { "@type": "PostalAddress", "addressCountry": "ZW" },
+    "url": "https://www.nexigent-labs.co.zw/",
+    "sameAs": ["https://www.linkedin.com/in/daniel-mafukidze-1a37b1a6"]
+  }
+  </script>
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+
+  <!-- Loader / start screen -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="monogram">DM</div>
+      <h1 class="loader-name">Daniel Mafukidze</h1>
+      <p class="loader-title">Business Process Automation Specialist · Data Analyst · Cyber Security Enthusiast · System Administrator · Solution Builder · Product Developer · System Analyst</p>
+      <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+      <p id="loader-status" class="loader-status">Warming up the V8…</p>
+      <button id="start-btn" class="btn btn-primary btn-start" disabled>
+        <span class="btn-start-icon" aria-hidden="true"></span> Start engine
+      </button>
+      <p class="loader-alt">Prefer reading? <a href="#" id="loader-classic">Open the classic portfolio</a></p>
+      <p class="loader-sound">🔊 Best with sound on</p>
+    </div>
+  </div>
+
+  <!-- HUD -->
+  <header id="hud" class="hud" hidden>
+    <a class="brand" href="#" id="brand">
+      <span class="brand-mark">DM</span>
+      <span class="brand-text"><strong>Daniel Mafukidze</strong><small>Automation · Data · Security · Product</small></span>
+    </a>
+    <nav class="hud-actions">
+      <div class="menu-wrap">
+        <button class="icon-btn" id="go-btn" aria-haspopup="true" aria-expanded="false" title="Go to… (G)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg><span>Go to</span>
+        </button>
+        <div class="menu" id="go-menu" role="menu" hidden></div>
+      </div>
+      <button class="icon-btn" id="view-btn" title="Cockpit / chase view (V)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2"/><path d="M4 12h6M14 12h6M12 14v6"/></svg><span id="view-name">Cockpit</span>
+      </button>
+      <button class="icon-btn" id="paint-btn" title="Change paint (C)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15c0-4 3-7 7-7h2l3-4 2 1-2 4c2 1 4 3 4 6v2H4z"/><circle cx="8" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg><span id="paint-name">Paint</span>
+      </button>
+      <button class="icon-btn" id="sound-btn" title="Sound on/off (M)" aria-pressed="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path id="sound-wave" d="M16 8c1.5 1 2.5 2.5 2.5 4s-1 3-2.5 4"/></svg><span>Sound</span>
+      </button>
+      <button class="icon-btn" id="classic-btn" title="Classic view (H)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg><span>Classic</span>
+      </button>
+    </nav>
+  </header>
+
+  <div id="dash" class="dash" hidden>
+    <div class="dash-speed"><strong id="speed">0</strong><small>km/h</small></div>
+    <div class="dash-meta">
+      <div class="dash-gear">GEAR <strong id="gear">N</strong></div>
+      <div class="rpm"><span id="rpm-bar"></span></div>
+      <div class="boost">BOOST <span id="boost-bar"></span></div>
+    </div>
+  </div>
+
+  <canvas id="minimap" class="minimap" width="168" height="168" hidden></canvas>
+
+  <aside id="keys" class="keys" hidden>
+    <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> drive</div>
+    <div><kbd>Shift</kbd> boost · <kbd>Space</kbd> handbrake</div>
+    <div><kbd>E</kbd> open · <kbd>R</kbd> reset · <kbd>G</kbd> go to</div>
+    <div><kbd>V</kbd> cockpit view · <kbd>C</kbd> paint</div>
+  </aside>
+
+  <!-- Context card when parked on a zone -->
+  <section id="zone-card" class="zone-card" hidden aria-live="polite"></section>
+
+  <!-- Detail modal -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </article>
+  </div>
+
+  <!-- Touch controls -->
+  <div id="touch" class="touch" hidden>
+    <div class="touch-left">
+      <button data-key="left" aria-label="Steer left">◀</button>
+      <button data-key="right" aria-label="Steer right">▶</button>
+    </div>
+    <div class="touch-right">
+      <button data-key="brake" class="small" aria-label="Handbrake">HB</button>
+      <button data-key="back" aria-label="Brake / reverse">▼</button>
+      <button data-key="forward" class="gas" aria-label="Accelerate">▲</button>
+    </div>
+  </div>
+
+  <!-- Classic portfolio (also the fallback when WebGL is unavailable) -->
+  <main id="classic" class="classic" hidden></main>
+
+  <noscript>
+    <div class="noscript">
+      <h1>Daniel Mafukidze</h1>
+      <p>Business Process Automation Specialist · Data Analyst · Cyber Security Enthusiast · System Administrator · Solution Builder · Product Developer · System Analyst — Harare &amp; Gweru, Zimbabwe.</p>
+      <p>This portfolio needs JavaScript. Reach me at <a href="mailto:danmafukidze92@gmail.com">danmafukidze92@gmail.com</a> or on <a href="https://www.linkedin.com/in/daniel-mafukidze-1a37b1a6">LinkedIn</a>.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
